@@ -1,5 +1,5 @@
 # bookmarklets
-a colletion of bookmarklets that i made or found (will update if i get new ideas or find new bookmarklets)
+A collection of bookmarklets that I made or found (will update if I get new ideas or find new bookmarklets)
 
 # IFrame
 Loads most sites of your choice, adding proxy features soon.
