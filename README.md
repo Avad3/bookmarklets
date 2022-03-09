@@ -10,7 +10,7 @@ javascript:(function(){var url=prompt("Enter URL Here (example: google.com)");if
 ```
 Made by Avad3 (Yours Truly)
 
-[FILE](/iframe.js)
+[File](/iframe.js)
 # Utopia History Flooder
 A history flooder that allows you to choose how much you want to flood, most others are predetermined amounts but this is totally unique.
 ```js
@@ -18,4 +18,4 @@ javascript:var num=prompt("History flood amount:");done=false;x=window.location.
 ```
 Made by Veracity, owner of Utopia Unblocker
 
-[FILE](/utopiaflooder.js)
+[File](/utopiaflooder.js)
