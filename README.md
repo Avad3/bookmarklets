@@ -1,5 +1,6 @@
 # Bookmarklets
 A collection of bookmarklets that I made or found (will update if I get new ideas or find new bookmarklets)
+JOIN THE [DISCORD](https://discord.gg/q2xket8tte) FOR UPDATES
 
 # IFrame
 ## THIS IS GETTING A HUGE UPDATE SOON, STICK AROUND
