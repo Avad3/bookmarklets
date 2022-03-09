@@ -3,13 +3,14 @@ A collection of bookmarklets that I made or found (will update if I get new idea
 ### JOIN THE [DISCORD](https://discord.gg/q2xket8tte) FOR UPDATES
 
 # IFrame
-## THIS IS GETTING A HUGE UPDATE SOON, STICK AROUND
-Loads most sites of your choice, adding proxy features soon.
+Loads most sites that don't have Same-origin policy enabled.
 This bookmarklet is simple, it already has https:// protocol so all you have to do is enter url.
 ```js
 javascript:(function(){var url=prompt("Enter URL Here (example: google.com)");if(url==null){alert('No URL Entered!')}else{document.body.innerHTML='<iframe src="https://' + url + '" style="position:fixed;top:0;bottom:0;left:0;right:0;width:100%;height:100%;border:none;margin:0;padding:0;z-index:999999;">Your browser does not support iframes</iframe>';alert('URL Loaded!');}}())
 ```
 Made by Avad3 (Yours Truly)
+
+Getting a well-deserved update soon :)
 
 [File](/iframe.js)
 # Utopia History Flooder
