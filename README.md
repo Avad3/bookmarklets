@@ -12,9 +12,9 @@ Made by Avad3 (Yours Truly)
 
 Getting a well-deserved update soon :)
 
-- [] Make a UI that lets the user choose between regular iframe or proxied iframe
-- [] Add a bar on the top that shows when user loads iframe, has multiple features
-- [] Make the script auto-update (load from raw github url)
+- [ ] Make a UI that lets the user choose between regular iframe or proxied iframe
+- [ ] Add a bar on the top that shows when user loads iframe, has multiple features
+- [ ] Make the script auto-update (load from raw github url)
 
 [File](/iframe.js)
 
