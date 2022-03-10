@@ -28,6 +28,6 @@ Dev Tools for Mobile Devices, but in our case for Unblocked Dev Tools
 ```js
 javascript:(function () { var script = document.createElement('script'); script.src="https://cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
 ```
-Made by liriliri, GitHub link [here](https://github.com/liriliri/eruda).
+Made by liriliri, GitHub link [here](/liriliri/eruda).
 
 [File](/eruda.js)
