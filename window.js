@@ -2,8 +2,8 @@ var iframeui = `new Nightmare({
 "title": "IFrame",
 "type": "js",
 "js": "https://cdn.jsdelivr.net/gh/Avad3/bookmarklets/app.min.js",
-"width": 400,
-"height": 275,
+"width": 600,
+"height": 400,
 "theme": "dark"
 })`
 
