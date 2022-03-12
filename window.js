@@ -1,7 +1,7 @@
 var iframe = `new Nightmare({
-"title": "Vapor",
+"title": "IFrame",
 "type": "js",
-"js": "enter url once done",
+"js": "https://cdn.jsdelivr.net/gh/Avad3/bookmarklets/app.min.js",
 "width": 400,
 "height": 275,
 "theme": "dark"
