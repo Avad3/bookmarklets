@@ -1,4 +1,4 @@
-var iframe = `new Nightmare({
+var iframeui = `new Nightmare({
 "title": "IFrame",
 "type": "js",
 "js": "https://cdn.jsdelivr.net/gh/Avad3/bookmarklets/app.min.js",
@@ -12,7 +12,7 @@ var NightmareWindows = await fetch("https://cdn.jsdelivr.net/gh/FogNetwork/Night
 var NightmareCode = await NightmareWindows.text()
 NightmareCode = NightmareCode.replaceAll("<br>", ";")
 var cdn1 = document.createElement("script")
-cdn1.innerHTML = NightmareCode  + "\n\n" + "eval(" + iframe + ")"
+cdn1.innerHTML = NightmareCode  + "\n\n" + "eval(" + iframeui + ")"
 document.getElementsByTagName("html")[0].appendChild(cdn1)
 }
 
