@@ -5,17 +5,17 @@ appid.appendChild(title)
 
 var items = document.createElement("center")
 
-var tab = document.createElement("button")
+var iframe = document.createElement("button")
 tab.className = "nightmarelol"
 tab.innerText = "IFrame"
-tab.setAttribute("onclick", 'javascript:(function(){var url=prompt("Enter URL Here (example: google.com)");if(url==null){alert("No URL Entered!");}else{document.body.innerHTML = "<iframe src="https://' + (url) + '" style="position:fixed;top:0;bottom:0;left:0;right:0;width:100%;height:100%;border:none;margin:0;padding:0;z-index:999999;">Your browser does not support iframes</iframe>";alert("URL Loaded!");}}())')
-items.appendChild(tab)
+tab.setAttribute('onclick', 'javascript:(function(){var url=prompt("Enter URL Here (example: google.com)");if(url==null){alert("No URL Entered!");}else{document.body.innerHTML = "<iframe src="https://' + (url) + '" style="position:fixed;top:0;bottom:0;left:0;right:0;width:100%;height:100%;border:none;margin:0;padding:0;z-index:999999;">Your browser does not support iframes</iframe>";alert("URL Loaded!");}}())')
+items.appendChild(iframe)
 
-var inspect = document.createElement("button")
+var proxyiframe = document.createElement("button")
 inspect.className = "nightmarelol"
 inspect.innerText = "Proxy IFrame"
-inspect.setAttribute("onclick", 'javascript:(function(){var url=prompt("Enter URL Here (example: google.com)");if(url==null){alert("No URL Entered!");}else{document.body.innerHTML = "<iframe src="https://' + (url) + '" style="position:fixed;top:0;bottom:0;left:0;right:0;width:100%;height:100%;border:none;margin:0;padding:0;z-index:999999;">Your browser does not support iframes</iframe>";alert("URL Loaded!");}}())')
-items.appendChild(inspect)
+inspect.setAttribute('onclick', 'javascript:(function(){var url=prompt("Enter URL Here (example: google.com)");if(url==null){alert("No URL Entered!");}else{document.body.innerHTML = "<iframe src="https://' + (url) + '" style="position:fixed;top:0;bottom:0;left:0;right:0;width:100%;height:100%;border:none;margin:0;padding:0;z-index:999999;">Your browser does not support iframes</iframe>";alert("URL Loaded!");}}())')
+items.appendChild(proxyiframe)
 
 appid.appendChild(items)
 
